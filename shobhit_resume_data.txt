@@ -1,0 +1,147 @@
+🧑‍💻 Professional Summary
+I am Shobhit Shourya, a highly motivated and technically driven B.Tech undergraduate in Computer Science from Vellore Institute of Technology (VIT), Vellore, graduating in 2026. With a strong academic foundation and practical experience in AI, cloud computing, software development, and full-stack engineering, I possess a unique blend of analytical thinking, problem-solving, and creative implementation.
+
+I have worked on diverse real-world projects ranging from AI-powered assistants to mobile service apps and note-taking platforms, reflecting both innovation and user-centered design. My hands-on exposure to technologies like Python, Java, React, TypeScript, Expo, and cloud platforms like Azure and AWS enables me to build scalable, efficient, and modern digital solutions.
+
+Having completed certifications from Microsoft Azure, Deloitte, and AWS, I am proficient in cloud architecture, AI services, and end-to-end data analytics. I have also taken up leadership roles within my college community and collaborated on cross-functional teams, showcasing my abilities in team coordination, event management, and outreach.
+
+🎓 Education
+Bachelor of Technology in Computer Science
+Vellore Institute of Technology (VIT), Vellore
+2022 – 2026
+Pursuing a B.Tech degree in Computer Science, building a deep understanding of core computing concepts including data structures, algorithms, system design, AI/ML, cloud computing, and software engineering.
+
+Senior Secondary (Class 12 – CBSE)
+Delhi Public School, Bhopal
+Graduated: 2022 – Scored 82%
+
+Secondary School (Class 10 – CBSE)
+Delhi Public School, Bhopal
+Graduated: 2020 – Scored 87%
+
+🛠️ Technical Skills
+Programming Languages: Java, Python, JavaScript, TypeScript, SQL
+
+Web Development: HTML, CSS, React
+
+Mobile App Development: Expo, React Native
+
+Cloud Platforms: Microsoft Azure, AWS Elastic Beanstalk
+
+UI/UX Tools: Figma
+
+Database and Data Tools: SQL, Excel, Tableau
+
+Others: GitHub, Postman, VS Code, Streamlit, Tkinter
+
+📚 Certifications & Courses
+Microsoft Azure AI Fundamentals – AI-900
+May – June 2024
+
+Gained comprehensive knowledge in artificial intelligence principles such as machine learning, natural language processing, and computer vision.
+
+Acquired expertise in implementing AI services using Azure tools and services.
+
+Completed project work aligned with real-world AI applications.
+Certificate
+
+Deloitte Australia Data Analytics Job Simulation
+June 2025
+
+Worked on forensic technology and data classification.
+
+Created dashboards in Tableau and used Excel for business reporting.
+
+Delivered business insights and supported strategic decision-making.
+Certificate
+
+AWS APAC Solutions Architecture Virtual Experience Program
+March 2025
+
+Designed scalable infrastructure using AWS Elastic Beanstalk.
+
+Focused on fault tolerance, cost efficiency, and availability.
+
+Documented and presented architecture to mock clients.
+Certificate
+
+Courses on Udemy
+Java Programming
+
+Data Structures and Algorithms using Java
+
+Android App Development
+
+iOS App Development
+
+💼 Internship Experience
+Software Programmer Intern – Parintek Innovations
+May – July 2025
+
+Worked on a live product and delivered development milestones before deadlines.
+
+Collaborated with the software team, receiving positive feedback for performance and dedication.
+
+Strengthened core programming and debugging skills in a real-world software lifecycle.
+Certificate
+
+AI-900 Microsoft Azure Internship
+May – June 2024
+
+Applied AI techniques to solve business problems using Azure AI services.
+
+Gained a practical understanding of cloud-based intelligent systems.
+
+💡 Projects
+🔷 Aura AI – Personalized AI Assistant
+A smart AI-powered assistant developed in Python to analyze a user’s resume and intelligently respond to job interview questions.
+
+Designed to mimic personalized answers, acting as a virtual advocate in professional settings.
+GitHub
+
+🔷 Portfolio Website with Personal AI Chatbot
+A sleek, responsive personal website showcasing my portfolio, skills, and projects.
+
+Integrated with a self-built chatbot to answer visitor queries about my work.
+Live Site | GitHub
+
+🔷 CleanIT – Hostel Room Cleaning Service App
+A TypeScript + Expo based mobile app for college students to schedule and track hostel room cleaning services.
+
+Features include time slot booking, real-time tracking, and clean UI.
+GitHub
+
+🔷 Scribl – Note-Making App
+A JavaScript + React app that helps users take, organize, and manage notes and to-do lists across devices.
+
+Supports multiple categories, responsive design, and device syncing.
+GitHub
+
+🌟 Leadership & Extra-Curricular Activities
+PR Head – Innovation and Creation Club (IACC), VIT
+Spearheaded public relations for the tech club, built partnerships, expanded brand presence, and enhanced engagement.
+
+Managed online communications and drove membership growth.
+
+Event Coordinator – VentureVerse, Gravitas 2024
+Planned and managed VIT’s flagship entrepreneurship and tech event during the annual fest.
+
+Coordinated logistics, promotional strategy, and team responsibilities for smooth execution.
+
+🌐 Online Presence
+GitHub: github.com/shob0902
+
+LinkedIn: linkedin.com/in/shobhit-shourya-35b3a8248
+
+LeetCode: leetcode.com/u/shobhitshourya
+
+✅ Key Strengths
+Strong grasp of data structures and algorithms.
+
+Experienced in end-to-end project development and UI/UX implementation.
+
+Proven ability to collaborate on teams, manage time, and deliver high-quality work.
+
+Strong public speaking, event planning, and leadership capabilities.
+
+Eager to learn, adapt, and grow with emerging technologies.

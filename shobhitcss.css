@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background: #080808 url('bg1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #header{
+    width: 100%;
+    height: 100vh;
+  }
+  .logo{
+    width: 80px;
+    height: auto;
+  }
+  .container{
+    padding: 10px 10%;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #efc75e;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+  .header-text{
+    margin-top: 20%;
+    font-size: 30px;
+  }
+  .header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+  }
+  .header-text h1 span{
+    color: #fabb5d;
+  }
+  .header-text a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 0.5em;
+    margin-right: 18px;
+    display: inline-block;
+    transition: color 0.2s;
+  }
+  .header-text a:last-child {
+    margin-right: 0;
+  }
+  .header-text a:hover {
+    color: #fabb5d;
+  }
+  #about{
+    padding: 80px 0;
+    color: #ababab;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .am{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .para{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+  }
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fabb5d;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+  .tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+  }
+  .tab-contents ul li span{
+    color: #fabb5d;
+    font-size: 14px;
+  }
+  .tab-contents{
+    display: none;
+  }
+  .tab-contents.active-tab{
+    display: block;
+  }
+  #services{
+    padding: 30px 0;
+  }
+  .services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  .services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+  }
+  .services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .services-list div:hover{
+    background: #3b3602;
+    transform: translateY(-10px);
+  }
+  #portfolio{
+    padding: 50px 0;
+  }
+  .work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.10s;
+  }
+  .layer{
+    height: 100%;
+    max-height: 0;
+    transition: max-height 1s, height 1s;
+    overflow: hidden;
+  }
+  .work .layer {
+    height: 0;
+    max-height: 100%;
+  }
+  .work:hover .layer {
+    height: 100%;
+    max-height: 100%;
+  }
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .layer a{
+    margin-top: 20px;
+    color: #fcfafa;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #3f3501;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .work:hover img{
+    transform: scale(1.1);
+  }
+  .btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #f7a121;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+  }
+  .btn:hover{
+    background: #f7a121;}
+  .contact-left{
+    flex-basis: 35%;
+  }
+  .contact-rigth{
+    flex-basis: 60%;
+  }
+  .contact-left p{
+    margin-top: 30px;
+  }
+  .contact-left p i{
+    color: #efc75e;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .social-icons{
+    margin-top: 30px;  
+  }
+  .social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    color: #dcdad6;
+    transition: transform 0.5s;
+  }
+  .social-icons a:hover{
+    color: #f7a121;
+    transform: translateY(-5px);
+  }
+  .btn.btn2{
+    display: inline-block;
+    background: #f7a121;
+  }
+  .contact-rigth form{
+    width: 100%;
+  }
+  form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .sub-title{
+    font-size: 75px;
+  }
+  form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .copyright i{
+    color: #f7a121;
+  }
+
+  /* AI Chatbox Styles */
+  #ai-chat-trigger {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 56px;
+    height: 56px;
+    background: #fabb5d;
+    color: #181818;
+    border-radius: 50%;
+    box-shadow: 0 4px 24px #fabb5d55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10001;
+    font-size: 2rem;
+    transition: box-shadow 0.2s, background 0.2s;
+  }
+  #ai-chat-trigger:hover {
+    background: #f7a121;
+    box-shadow: 0 0 32px #fabb5d, 0 0 64px #fff2;
+    color: #fff;
+  }
+  #ai-chat-trigger i {
+    pointer-events: none;
+  }
+  #ai-chatbox {
+    position: fixed;
+    bottom: 100px;
+    right: 32px;
+    width: 340px;
+    max-height: 480px;
+    background: rgba(30,30,40,0.95);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 18px;
+    overflow: hidden;
+    z-index: 10000;
+    display: none;
+    flex-direction: column;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    animation: fadeInChat 0.4s;
+  }
+  #ai-chatbox.active {
+    display: flex;
+  }
+  @keyframes fadeInChat {
+    from { opacity: 0; transform: translateY(40px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  #ai-chat-header {
+    background: #fabb5d;
+    color: #181818;
+    font-weight: bold;
+    padding: 14px 18px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  #ai-chat-messages {
+    flex: 1;
+    padding: 16px;
+    background: rgba(20,20,40,0.7);
+    overflow-y: auto;
+    font-size: 1rem;
+    color: #fff;
+  }
+  #ai-chat-form {
+    display: flex;
+    border-top: 1px solid #fabb5d44;
+    background: rgba(30,30,40,0.95);
+  }
+  #ai-chat-input {
+    flex: 1;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    outline: none;
+  }
+  #ai-chat-form button {
+    background: #fabb5d;
+    color: #181818;
+    border: none;
+    padding: 0 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 0 18px 0;
+    transition: background 0.2s;
+  }
+  #ai-chat-form button:hover {
+    background: #f7a121;
+  }
+
+  /* Smooth Scroll Animation */
+  html {
+    scroll-behavior: smooth;
+  }
+  section, .container, .work, .services-list div {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.8s cubic-bezier(.77,0,.18,1.01), transform 0.8s cubic-bezier(.77,0,.18,1.01);
+  }
+  section.visible, .container.visible, .work.visible, .services-list div.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  @media (max-width: 600px) {
+    body {
+      background: #080808 url('bg2.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+  }

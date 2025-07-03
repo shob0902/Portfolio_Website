@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Shobhit Shourya</title>
+  <link rel="stylesheet" href="shobhitcss.css">
+  <script src="https://kit.fontawesome.com/a351f157f0.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="l1.png">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="l1.png" class="logo">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Courses</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Developer</p>
+        <h1>Hi, I'm <span>Shobhit Shourya</span></h1>
+        <a href="https://github.com/shob0902" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/shobhit-shourya-35b3a8248/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://leetcode.com/u/shobhitshourya/" target="_blank" rel="noopener">Leetcode</a>
+      </div>
+    </div>
+  </div>
+<!-------About me-------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="s1.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="am">About Me</h1>
+            <p class="para">As a dynamic B.Tech Computer Science student, I specialize in building intelligent, user-focused digital solutions that merge cutting-edge technologies with intuitive design. With hands-on experience in full-stack development, cloud computing (Azure & AWS), and AI integration, I create seamless web and mobile applications that solve real-world problems. From crafting smart assistants like Aura AI to designing service platforms like CleanIT, my projects reflect a strong foundation in both backend logic and front-end aesthetics. I combine technical depth with a user-first mindset, delivering solutions that are not just functional, but impactful. Let’s innovate at the crossroads of AI, design, and development.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills"> 
+              <ul>
+                <li><span>Programming</span><br>JAVA, Python</li>
+                <li><span>Web Development</span><br>HTML, CSS, JavaScript, React, Typescript</li>
+                <li><span>App Develoment</span><br>Buildnig Adroid/IOS apps</li>
+                <li><span>Others</span><br>Expo, Figma, SQL, Git</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>AI 900 - Microsoft Azure AI Fundamentals Internship </span><br>I explored core AI concepts like machine learning and NLP on Azure, applying them to real-world scenarios through cloud-based projects.</li>
+                <li><span> Parintek Innovations (Software Programmer Intern)</span><br>I worked on a live development project, delivered results ahead of deadlines, and received great feedback for my performance and problem-solving approach.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020</span><br>Class 10 from DPS Bhopal</li>
+                <li><span>2022</span><br>Class 12 from DPS Bhopal</li>
+                <li><span>2022-26</span><br>Ongoing B.Tech from VIT Vellore</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!-------Services-------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="am">My Courses</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2><b>Deloitte Australia Data Analytics Job Simulation</b></h2>
+          <p>"Worked on forensic technology and data classification.
+
+            Created dashboards in Tableau and used Excel for business reporting.
+            
+            Delivered business insights and supported strategic decision-making."</p>
+          <a href="https://drive.google.com/file/d/1RmyeS7WHN1PQzhjrIaaQgzUI2SUigQvr/view">Certificate</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-codepen"></i>
+          <h2><b>AWS APAC Solutions Architecture Virtual Experience Program</b></h2>
+          <p>"Designed scalable infrastructure using AWS Elastic Beanstalk.
+
+            Focused on fault tolerance, cost efficiency, and availability.
+            
+            Documented and presented architecture to mock clients."</p>
+          <a href="https://drive.google.com/file/d/15RfTpbS1rZQQKSqZjfUstlz6BiIjTpwR/view">Certificate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-------Portfolio-------------->  
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>  
+      <div class="work-list">
+        <div class="work">
+          <img src="aura.png" >
+          <div class="layer">
+            <h3><b>Aura AI</b></h3>
+            <p>Built a custom AI chatbot using Google’s Gemini API to answer questions about my background, projects, and achievements.</p>
+            <a href="https://github.com/shob0902/Aura-AI"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="cleanit.png" class="webwork">
+          <div class="layer">
+            <h3><b>CleanIT</b></h3>
+            <p>Application designed for hostel students to schedule room cleaning services at their convenience.</p>
+            <a href="https://github.com/shob0902/CleanIT"><i class="fa-solid fa-user-tie"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="quiz.png" class="logowork">
+          <div class="layer">
+            <h3><b>Quiz App</b></h3>
+            <p>A Python-based quiz application with multiple interface options: Command Line Interface (CLI), and Tkinter GUI.</p>
+            <a href="https://github.com/shob0902/Quiz_App"><i class="fa-solid fa-gift"></i></a>
+          </div>
+        </div>
+      </div> 
+      <a href="https://github.com/shob0902" class="btn">See More</a>           
+    </div>
+  </div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <!-- AI Chatbox Trigger Icon -->
+  <div id="ai-chat-trigger">
+    <i class="fa-regular fa-message"></i>
+  </div>
+  <!-- AI Chatbox Widget (hidden by default) -->
+  <div id="ai-chatbox">
+    <div id="ai-chat-header">Ask Shobhit's AI</div>
+    <div id="ai-chat-messages"></div>
+    <form id="ai-chat-form">
+      <input type="text" id="ai-chat-input" placeholder="Ask me anything..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- End AI Chatbox Widget -->
+  <script src="ai_agent.js"></script>
+</body>
+</html>
